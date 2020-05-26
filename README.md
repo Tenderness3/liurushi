@@ -1,38 +1,34 @@
-具体信息都可以动态修改
-## Welcome to GitHub Pages
+github  使用手册
 
-You can use the [editor on GitHub](https://github.com/Tenderness3/liurushi/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+star 收藏
+fork 复制仓库
+pull request 请求更新仓库repository
+watch  关注
+issue  发现代码bug 需要讨论
 
-### Markdown
+首先创建一个文件touch a2.php
+然后添加到暂存区  git add a2.php
+可以查看暂存区的东西  git status
+最后提交到仓库 git commit -m 'add a2.php'
+查看暂存区没有东西  git status
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+vi a1.php    进入vi编辑
+cat a1.php   查看文件
 
-# Header 1
-## Header 2
-### Header 3
+三部删除操作
+rm -rf a1.php      删除a1.php
+git rm a1.php
+git commit -m '第一次通过git删除文件'
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+git clone 仓库地址下载
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Tenderness3/liurushi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+怎样将本地文件上传到git库
+首先创建文件touch 22.php
+然后添加到缓存区 git add 22.php
+其次提交记录  git commit -m '第几次提交到git'
+最后git push  等待完成
